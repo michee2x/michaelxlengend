@@ -149,7 +149,7 @@ export default function Home() {
       <ContactME />
 
       <div className="w-full flex gap-2 p-2.5 py-4 h-auto my-10">
-        <div className="w-[6rem] border-2 border-white ring-4 ring-blue-500 bg-slate-900 h-[6rem] relative overflow-hidden rounded-full">
+        <div className="w-[6rem] border-2 border-white ring-4 ring-blue-900 bg-slate-900 h-[6rem] relative overflow-hidden rounded-full">
           <Image
             alt="my image"
             src={ImageFive}
