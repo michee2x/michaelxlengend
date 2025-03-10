@@ -39,7 +39,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 
 export default function Home() {
   return (
-    <div className="w-screen bg-gray-200 pt-16 min-h-screen">
+    <div className="w-screen bg-gray-200 pt-24 min-h-screen">
       <nav
         style={{ backdropFilter: "blur(20px)" }}
         className="w-full fixed top-0 left-0 right-0 z-[4000] bg-slate-900 bg-opacity-80 flex items-center justify-between px-4 h-[4rem] "
