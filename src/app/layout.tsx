@@ -19,6 +19,7 @@ const orbitron = Orbitron({
 
 const teko = Teko({
   variable: "--font-geist-teko",
+  subsets: ["latin"],
 });
 
 const satisfy = Satisfy({
