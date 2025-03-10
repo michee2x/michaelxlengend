@@ -52,7 +52,7 @@ export default function Home() {
 
       <div className="w-full h-[50vh] flex flex-col place-content-evenly relative">
         <h1 className="text-5xl satisfy font-bold px-4 mt-10 text-slate-900">
-          Let's Unlock Your Earning <br /> Potential Today <br /> Shall we...
+          Let's Unlock Your Earning <br /> Potential Today. <br /> Shall we...
         </h1>
         <h3 className="px-4 text-xl mt-6">
           I'll show you proven ways to Make Money from Home, Start Your Side
@@ -139,14 +139,37 @@ export default function Home() {
 
       <FAQs />
 
-      <div className="w-full py-12 min-h-[60vh] my-10">
-        <h1 className="text-3xl my-6 satisfy px-4 text-slate-800 text-center">
+      <div className="w-full py-8 min-h-[60vh] my-10">
+        <h1 className="text-3xl mb-6 satisfy px-4 text-slate-800 text-center">
           People who made it selling online
         </h1>
         <Testimonials />
       </div>
 
       <ContactME />
+
+      <div className="w-full flex gap-2 p-2.5 py-4 h-auto my-10">
+        <div className="w-[6rem] border-2 border-white ring-4 ring-blue-500 bg-slate-900 h-[6rem] relative overflow-hidden rounded-full">
+          <Image
+            alt="my image"
+            src={ImageFive}
+            fill
+            className="object-contain"
+          />
+        </div>
+        <div className="flex-1">
+          <span className="text-sm text-slate-900 orbitron mb-[1.5rem] flex mt-[2.5rem]">
+            @michaelxlegend
+          </span>
+
+          <p>
+            Am a web developer, online marketer, and on-Page SEO specialist.
+            Seeking to explore the Ins and Outs of online marketing and it
+            dynamism? that's the drill. feel free to follow me on my social
+            media accounts for more updates.
+          </p>
+        </div>
+      </div>
 
       <footer className="w-full p-4 h-[15rem] py-5 bg-gradient-to-br from-blue-500 via-purple-800 to-slate-900">
         <div className="w-full h-auto flex">
